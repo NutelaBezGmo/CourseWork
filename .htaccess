@@ -1,0 +1,8 @@
+AddDefaultCharset UTF-8;
+#Options +MultiViews
+#Options -Indexes
+#DirectoryIndex file.php
+IndexIgnore *.php *.docx
+AddType application/x-httpd-php .html .html
+#RewriteRule ^about?$ about.php [NC, L]
+ErrorDocument 404 /404.php

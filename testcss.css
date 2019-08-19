@@ -1,0 +1,34 @@
+CSS:
+/** Print Sheet **/
+NOTE: these were specific to this site, but you can use this to not show any of the surrounding containers.
+Just doing a body or higher up .container would hide everything.  So I had to pick and choose what not to show.
+/** Print Sheet **/
+@media only print, print {
+  body.non-print #product-nav,
+  body.non-print #product-content,
+  body.non-print #sales-forms-container,
+  body.non-print #tab-quote,
+  body.non-print #tab-upgrade,
+  body.non-print #tab-contact,
+  body.non-print #sales-form-phone,
+  body.non-print .product-jumbo-strech .bottom-wrapper,
+  body.non-print .panel-block-text,
+  body.non-print footer,
+  .modal-backdrop.toPrint {
+    display: none !important;
+    visibility: hidden !important;
+  }
+  .modal.toPrint {
+    position: relative;
+    overflow: hidden;
+    visibility:visible;
+    width: 100%;
+    font-size: 80%;
+  }
+  .modal.toPrint .nav .li {
+    visibility: hidden;
+  }
+  .modal.toPrint .nav .li.active {
+    visibility: visible;
+  }
+}
