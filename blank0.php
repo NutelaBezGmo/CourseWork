@@ -18,22 +18,16 @@
           <li class="breadcrumb-item">
             <a href="index.php">Главная</a>
           </li>
-          <li class="breadcrumb-item active">Ошибка № <?= $_SESSION['errors']++; ?></li>
+          <li class="breadcrumb-item active">Дом</li>
         </ol>
 
         <!-- Page Content -->
-        <h1>Ошибка</h1>
+        <h1>Дома</h1>
         <hr>
-        <?php
-          print $error;
-        ?>
-        <p class="lead">Вы можете
-          <a href="javascript:history.back()">Вернуться назад</a>
-          на предыдущую страницу, или
-          <a href="index.php">вернуться домой</a>.</p>
 
       </div>
       <!-- /.container-fluid -->
+
       <?php include_once 'C:\xampp\htdocs\course\blocks\footer.php'?>
     </div>
     <!-- /.content-wrapper -->

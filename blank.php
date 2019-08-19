@@ -1,13 +1,13 @@
-<?php include_once 'C:\xampp\htdocs\course\blocks\head.php';?>
+<?php include_once 'D:\xampp\htdocs\course\blocks\head.php';?>
 
 <body id="page-top">
 
-<?php include_once 'C:\xampp\htdocs\course\blocks\header.php'?>
+<?php include_once 'D:\xampp\htdocs\course\blocks\header.php'?>
 
   <div id="wrapper">
 
     <!-- Sidebar -->
-    <?php include_once 'C:\xampp\htdocs\course\blocks\right.php'?>
+    <?php include_once 'D:\xampp\htdocs\course\blocks\right.php'?>
 
     <div id="content-wrapper">
 
@@ -16,25 +16,20 @@
         <!-- Breadcrumbs-->
         <ol class="breadcrumb">
           <li class="breadcrumb-item">
-            <a href="index.php">Главная</a>
+            <a href="index.html">Dashboard</a>
           </li>
-          <li class="breadcrumb-item active">Ошибка № <?= $_SESSION['errors']++; ?></li>
+          <li class="breadcrumb-item active">Blank Page</li>
         </ol>
 
         <!-- Page Content -->
-        <h1>Ошибка</h1>
+        <h1>Blank Page</h1>
         <hr>
-        <?php
-          print $error;
-        ?>
-        <p class="lead">Вы можете
-          <a href="javascript:history.back()">Вернуться назад</a>
-          на предыдущую страницу, или
-          <a href="index.php">вернуться домой</a>.</p>
+        <p>This is a great starting point for new custom pages.</p>
 
       </div>
       <!-- /.container-fluid -->
-      <?php include_once 'C:\xampp\htdocs\course\blocks\footer.php'?>
+
+      <?php include_once 'D:\xampp\htdocs\course\blocks\footer.php'?>
     </div>
     <!-- /.content-wrapper -->
 
@@ -47,7 +42,7 @@
   </a>
 
   <!-- Logout Modal-->
-    <?php include_once 'C:\xampp\htdocs\course\blocks\logout.php'?>
+    <?php include_once 'D:\xampp\htdocs\course\blocks\logout.php'?>
 
   <!-- Bootstrap core JavaScript-->
   <script src="vendor/jquery/jquery.min.js"></script>
