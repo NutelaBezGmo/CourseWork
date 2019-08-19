@@ -15,7 +15,13 @@ if(!isset($_SESSION['login'])){
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-
+  <style media='print' type='text/css'>
+  #navbar-iframe {display: none; height: 0px; visibility: hidden;}
+  .noprint {display: none;}
+  body {background:#FFF; color:#000;}
+  a {text-decoration: underline; color:#00F;}
+  }
+  </style>
   <title>SB Admin - Tables</title>
 
   <!-- Custom fonts for this template-->
